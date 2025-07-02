@@ -11,7 +11,7 @@ jobs:
     #só teremos um job: rodar os testes
     cypress-run:
         # maquina que será executada
-        runs-on: Windows 10 Pro
+        runs-on: windows-latest
 
         # passo a passo para rodar os testes
         steps:
