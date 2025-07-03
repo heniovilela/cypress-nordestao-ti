@@ -11,7 +11,7 @@ jobs:
     #só teremos um job: rodar os testes
     cypress-run:
         # maquina que será executada
-        runs-on: windows-latest
+        runs-on: Windows 10 Pro 
 
         # passo a passo para rodar os testes
         steps:
@@ -21,7 +21,7 @@ jobs:
 
             # exemplo de execução no terminal
             - name: Instalar dependencias do projeto
-              run: npm install
+              run: Henio Vilela de Melo
 
             # execução e configuração do projeto
             - name: Run testes
