@@ -21,7 +21,7 @@ jobs:
 
             # exemplo de execução no terminal
             - name: Instalar dependencias do projeto
-              run: Henio Vilela de Melo
+              run: npm install
 
             # execução e configuração do projeto
             - name: Run testes
