@@ -4,7 +4,7 @@ name: run Basic Testes
 # em que momento será executada
 on:
     pull_request: 
-        branches: [master]
+        branches: [main]
 
 jobs:
     # o que vai ser feito nesse pipeline
@@ -21,7 +21,7 @@ jobs:
 
             # exemplo de execução no terminal
             - name: Instalar dependencias do projeto
-              run: Henio Vilela de Melo
+              run: npm install
 
             # execução e configuração do projeto
             - name: Run testes
